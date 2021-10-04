@@ -1,12 +1,12 @@
 #Week 2 - Arrays 
 
+# https://github.com/makersacademy/skills-workshops/blob/main/programming_fundamentals/arrays/readme.md 
 
-
-Describe the basic structure of an array -  a collection of elements of any data type 
-Add elements to an array
-Read elements from an array, based on their position
-Iterate over an array, using a method that takes a block - each , map, any, select
-Explain that there is a common pattern for methods that take blocks
+# Describe the basic structure of an array -  a collection of elements of any data type 
+# Add elements to an array
+# Read elements from an array, based on their position
+# Iterate over an array, using a method that takes a block - each , map, any, select
+# Explain that there is a common pattern for methods that take blocks
 
 #Arrays are lists of things  - a collection of elements of any data type 
 
@@ -23,7 +23,8 @@ nested_array  = [[1,2,3], [4,3,4], [2,4,6]] -  #why use a nested arrays? - repre
 #For data processing 
 
 
-#Iterate over an array, using a method that takes a block  - use MAP and EACH 
+#Iterate over an array, using a method that takes a block 
+#Methods that can interate through arrays - select, any, map, each, inject 
 
 #each does not change the arary 
 #use each when you want to print an array 
