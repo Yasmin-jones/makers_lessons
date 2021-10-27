@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<h1> Hi there! </h1>
+<h2> What is your name? </h2>
+
+<form action="/users-name" method="post">
+  <input type="text" name="name">
+</form>
+
+<p> When is your <mark>birthday?</mark></p>
+
+<form action="/users-birth-day" method="get">
+  <label for="day">Day: 
+  </label>  
+  <input type="text" day="day">
+</form>
+
+<form action="/users-birth-month" method="get">
+  <label for="month">Month:
+</label>   
+ <select name="month" id="month">
+  <option value="January">January</option>
+  <option value="Febuary">Febuary</option>
+  <option value="March">March</option>
+  <option value="April">April</option>
+  <option value="May">May</option>
+  <option value="June">June</option>
+  <option value="July">July</option>
+  <option value="August">August</option>
+  <option value="September">September</option>
+  <option value="October">October</option>
+  <option value="November">November</option>
+  <option value="December">December</option>
+ </select>
+</form>
+
+<input type="submit" value="GO!">
+
+</body>
+</html>
